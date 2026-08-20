@@ -1,0 +1,4 @@
+interface:
+  display_name: "投资经济模型"
+  short_description: "建立公司因果链、基本面概率与市场状态条件化假设"
+  default_prompt: "使用 $investment-model 建立可证伪的投资假设，并在适用时按市场状态路由价值兑现或情绪衰竭引擎。"

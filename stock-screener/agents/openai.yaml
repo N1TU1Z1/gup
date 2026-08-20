@@ -1,0 +1,9 @@
+interface:
+  display_name: "A股策略筛选"
+  short_description: "使用 eltdx 实盘扫描沪深 A 股并复核候选票号"
+  default_prompt: "使用 $stock-screener 实盘扫描沪深 A 股，榜单预排序进入前20后单独刷新一次实时行情，再生成并复核最多3只研究候选，标注数据时间、信号状态和失效条件。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "eltdx"
+      description: "本地通达信行情、榜单、前20实时刷新、竞价、K线、题材、F10与财务数据"

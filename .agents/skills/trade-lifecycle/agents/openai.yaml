@@ -1,0 +1,4 @@
+interface:
+  display_name: "交易生命周期"
+  short_description: "将投资假设转为触发条件、持仓观察、减仓退出和条件单计划"
+  default_prompt: "使用 $trade-lifecycle 将已冻结的投资假设转换为可执行的观察与退出计划。"

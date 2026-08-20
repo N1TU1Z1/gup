@@ -1,0 +1,4 @@
+interface:
+  display_name: "模型评估与反思"
+  short_description: "计算模型胜率、期望值、概率校准并归因研究与执行错误"
+  default_prompt: "使用 $model-evaluator 结算已到期实验，输出胜率、期望值、校准和反思结论。"

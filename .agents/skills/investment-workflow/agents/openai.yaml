@@ -1,0 +1,6 @@
+interface:
+  display_name: "投资研究工作流"
+  short_description: "编排全市场扫描、投资建模、交易跟踪、胜率统计与每日复盘"
+  default_prompt: "使用 $investment-workflow 执行今日完整投资研究流程，并标注每一步的数据时间和状态。"
+policy:
+  allow_implicit_invocation: true
